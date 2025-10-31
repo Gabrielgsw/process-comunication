@@ -17,11 +17,14 @@ public class Calculadora extends UnicastRemoteObject implements CalculadoraOpera
 
     @Override
     public double soma(double x, double y) throws RemoteException {
+        System.out.println("Somando...");
         return x + y;
     }
 
+
+
     @Override
-    public double subtrarcao(double x, double y) throws RemoteException {
+    public double subtracao(double x, double y) throws RemoteException {
         return x - y;
     }
 
