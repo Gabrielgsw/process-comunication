@@ -1,10 +1,10 @@
-package com.blog.calculadora.calculadoraassincrona;
+package br.com.calcassinc.producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CalculadoraAssincronaApplicationTests {
+class ProducerApplicationTests {
 
     @Test
     void contextLoads() {

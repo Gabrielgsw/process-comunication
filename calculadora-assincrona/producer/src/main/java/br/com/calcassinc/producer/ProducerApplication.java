@@ -1,13 +1,13 @@
-package com.blog.calculadora.calculadoraassincrona;
+package br.com.calcassinc.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalculadoraAssincronaApplication {
+public class ProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CalculadoraAssincronaApplication.class, args);
+        SpringApplication.run(ProducerApplication.class, args);
     }
 
 }
