@@ -20,8 +20,12 @@ public class CalculadoraService {
                     .trim();
 
             String[] nums = numbersPart.split(",");
-            double a = Double.parseDouble(nums[0].trim());
-            double b = Double.parseDouble(nums[1].trim());
+            Double a = Double.parseDouble(nums[0].trim());
+            Double b = null;
+            if(!op.equals("LOG") && !op.equals("LN") && !op.equals("SIN") && !op.equals("COS") && !op.equals("SQRT")) {
+                b = Double.parseDouble(nums[1].trim());
+            }
+
 
             double result = switch (op.toUpperCase()) {
                 case "ADD" -> a + b;

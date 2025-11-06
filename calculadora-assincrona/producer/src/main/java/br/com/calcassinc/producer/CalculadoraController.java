@@ -21,9 +21,4 @@ public class CalculadoraController {
         return "Tarefa enviada: " + message;
     }
 
-    // opcional para teste rápido via navegador:
-    @GetMapping("/ping")
-    public String ping() {
-        return "API online!";
-    }
 }
